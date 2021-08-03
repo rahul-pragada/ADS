@@ -28,3 +28,5 @@ logfiles = glob.glob('%s*' % LOG_FILENAME)
 
 for filename in logfiles:
     print(filename)
+
+logging.shutdown()
